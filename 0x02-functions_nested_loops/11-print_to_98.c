@@ -3,31 +3,35 @@
 #include "main.h"
 
 /**
- * print_to_98 - prints numbers to 98
- * @n: starting integer
+ ** print_to_98 - Check the code
+ * @n: A input integer
+ * Description: function that prints all natural numbers
+ * from n to 98, followed by a new line.
  *
- * Description: prints all natural number from n - 98
- *
- * Return: void
+ *  Return: Nothing
  */
 
-void print_to_98{int n)
+void print_to_98(int n)
 {
-if (n < 98)
+if (n <= 98)
 {
-while (n < 98)
+for (; n <= 98; n++)
 {
-printf("%d, ", n);
-n++;
+printf("%d", n"); 
+if (n == 98)
+continue 
+printf(", ");
 }
+printf("\n");
 }
-else if (n > 98)
+else
 {
-while (n > 98)
-{
-printf("%d, ", n);
-n--;
+for (; n >= 98; n--;
+		{															printf("%d", n);
+if (n == 98)
+continue;
+printf(", ");
 }
+printf("\n");
 }
-printf("98\n");
 }
