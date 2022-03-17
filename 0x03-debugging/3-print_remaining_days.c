@@ -34,3 +34,4 @@ printf("Remaining days: %d\n", 366 - day);
 	}
 }
 }
+
