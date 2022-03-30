@@ -1,10 +1,10 @@
-#include "main,h"
+#include "main.h"
 
 /**
-* _print_rev_recursion - reverse
-* @s: pointer to string parameter
-*
-*/
+ * _print_rev_recursion - reverse
+ * @s: pointer to string params
+ *
+ */
 
 void _print_rev_recursion(char *s)
 {
