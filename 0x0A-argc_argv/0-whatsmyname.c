@@ -2,12 +2,16 @@
 #include <stdio.h>
 
 /**
-* main - check the code
+* main - Program to print its name and its argument
 *
 * Return: Always 0.
 */
-int main(void)
+void main(int argc, char *argv [])
 {
-	printf("Whats my name"\n);
-	return (0)
+	int i;
+	for (i = 0;i < argc;i++)
+	{
+		printf("%s ", argv[i]);
+	}
+	printf("\n");
 }
